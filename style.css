@@ -1,15 +1,54 @@
-.heder{
+body,h1,h2,h3,h4,h5,a,p,section{
+	margin: 0;
+	font-weight: normal;
+	font-size: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
+
+
+*{
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.heder_card{
+    width: 1200px;
+}
+
+.header{
+    text-align: center;
+}
+
+.h1{
+    font-family: 'Amatic SC', cursive;
+    margin-top: 30px;
+    font-size: 60px;
+    color: #fff;
 }
 
 .btn{
-
-}
-
-.btn_img{
-    
+    margin-top: 20px;
+    color: #fff;
+    background-color: #FBCC25;
+    width: 200px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .image{
-    margin-top: 50px;
+    width: 550px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
 }
